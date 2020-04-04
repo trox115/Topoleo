@@ -33,7 +33,7 @@ const Header = () => {
             </NavLink>
           </li>
           <li className="nav-item">
-            <NavLink to="/sobre-nos" activeStyle={activeStyle}>
+            <NavLink to="/portfolio" activeStyle={activeStyle}>
               Portfólio
             </NavLink>
           </li>
