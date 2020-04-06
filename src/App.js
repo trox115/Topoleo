@@ -6,6 +6,7 @@ import AboutPage from './components/about/AboutPage';
 import ServicosPage from './components/servicos/ServicosPage';
 import ContactPage from './components/contactos/ContactPage';
 import PortfolioPage from './components/portfolio/PortfolioPage';
+import GaleriaPage from './components/portfolio/GaleriaPage';
 import Header from './common/Heafer';
 import PageNotFound from './components/PageNotFound';
 
@@ -21,6 +22,7 @@ function App() {
             <Route exact path="/servicos" component={ServicosPage} />
             <Route exact path="/contacto" component={ContactPage} />
             <Route exact path="/portfolio" component={PortfolioPage} />
+            <Route exact path="/galeria" component={GaleriaPage} />
             <Route component={PageNotFound} />
           </Switch>
         </div>
