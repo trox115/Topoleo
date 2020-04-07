@@ -79,13 +79,18 @@
     right:0;
     bottom:0;
     left:0;
-    z-index:99;
+    z-index:1 !important;
     margin:auto;
-    height:400px;
-    width:700px;
+    height:450px;
+    width:800px;
     box-shadow: 0 0px 15px rgba(0, 0, 0, 0.3);
     text-align:center;
     overflow-y: auto;
+}
+.homepage-slider{
+  max-height: 345px;
+  overflow: hidden;
+  
 }
 .texto{
   text-align: justify;
@@ -159,6 +164,7 @@ overflow-x: hidden;
   max-height: 40px;
 }
 
+
 .thumbs-wrapper{
   display:none;
 }
@@ -181,22 +187,34 @@ overflow-x: hidden;
 }
 .filter-button
 {
-    font-size: 18px;
-    border: 1px solid #42B32F;
-    border-radius: 5px;
+    font-size: 12px;
+    border: 1px solid #5e5e5e;
+    border-radius: 0;
     text-align: center;
-    color: #42B32F;
+    color: #ffffff;
     margin-bottom: 30px;
+    background: #333333;
+    -moz-border-radius: 0px;
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    font-family: inherit;
+    padding: 0 10px;
+    text-decoration: none;
+    -moz-transition: color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+    -ms-transition: color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+    -o-transition: color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+    -webkit-transition: color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
+    transition: color 0.08s ease-in-out, background-color 0.08s ease-in-out, border-color 0.08s ease-in-out;
 
 }
 .filter-button:hover
 {
-    font-size: 18px;
-    border: 1px solid #42B32F;
+    font-size: 12px;
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
     text-align: center;
     color: #ffffff;
-    background-color: #42B32F;
+    background-color: #5e5e5e;
 
 }
 .btn-default:active .filter-button:active
@@ -213,14 +231,27 @@ overflow-x: hidden;
 .gallery_product
 {
     margin-bottom: 30px;
+    float:left;
 }
 
 .gallery_product img
 {
-  width: 100%;
+    width: 100%;
+    cursor:pointer;
 }
 
 nav{
   border-top: 1px solid #ecf0f1;
   box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+
+}
+
+.navbar-brand img{
+  width: 70px;
+}
+.btn-link{
+  color: #5e5e5e;
+}
+.btn-link ::hover{
+  color: #5e5e5e;
 }

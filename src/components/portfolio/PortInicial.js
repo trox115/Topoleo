@@ -21,7 +21,7 @@ function PortInicial(props) {
       onClick={handleClick}
       nome={nome}
     >
-      <img src={final1} className="img-responsive" alt="teste" />
+      <img src={final1} className="img-responsive" alt="Topoleo " />
     </div>
   );
 }

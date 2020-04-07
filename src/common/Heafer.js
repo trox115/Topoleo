@@ -1,55 +1,51 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+import { Nav, Navbar } from 'react-bootstrap';
 
 const Header = () => {
   const activeStyle = { color: '#515151' };
 
   return (
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <a class="navbar-brand" href="#">
-        Navbar
-      </a>
-      <button
-        class="navbar-toggler"
-        type="button"
-        data-toggle="collapse"
-        data-target="#navbarNav"
-        aria-controls="navbarNav"
-        aria-expanded="false"
-        aria-label="Toggle navigation"
-      >
-        <span className="navbar-toggler-icon" />
-      </button>
-      <div className="collapse navbar-collapse" id="navbarNav">
-        <ul className="navbar-nav">
-          <li className="nav-item">
-            <NavLink to="/" activeStyle={activeStyle} exact>
+    <Navbar collapseOnSelect expand="lg" className="navbar-light bg-light">
+      <NavLink to="/" className="navbar-brand" activeStyle={activeStyle} exact>
+        <img src="/topoleo.png" alt="logo-topoleo" />
+      </NavLink>
+      <Navbar.Toggle />
+      <Navbar.Collapse>
+        <Nav className="mr-auto">
+          <Nav.Item>
+            <NavLink
+              to="/"
+              className="nav-link"
+              activeStyle={activeStyle}
+              exact
+            >
               Home
             </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/sobre-nos" activeStyle={activeStyle}>
+          </Nav.Item>
+          <Nav.Item>
+            <NavLink to="/sobre-nos" className="nav-link" exact>
               Sobre
             </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/portfolio" activeStyle={activeStyle}>
+          </Nav.Item>
+          <Nav.Item>
+            <NavLink to="/portfolio" className="nav-link" exact>
               Portfólio
             </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/servicos" activeStyle={activeStyle}>
+          </Nav.Item>
+          <Nav.Item>
+            <NavLink to="/servicos" className="nav-link" exact>
               Serviços
             </NavLink>
-          </li>
-          <li className="nav-item">
-            <NavLink to="/contacto" activeStyle={activeStyle}>
+          </Nav.Item>
+          <Nav.Item>
+            <NavLink to="/contacto" className="nav-link" exact>
               Contactos
             </NavLink>
-          </li>
-        </ul>
-      </div>
-    </nav>
+          </Nav.Item>
+        </Nav>
+      </Navbar.Collapse>
+    </Navbar>
   );
 };
 
