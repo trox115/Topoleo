@@ -2,17 +2,13 @@ import React from 'react';
 import { SRLWrapper } from 'simple-react-lightbox';
 import { useLocation } from 'react-router-dom';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
-import { findByLabelText } from '@testing-library/react';
 
 const options = {
-  overlayColor: 'rgb(25, 136, 124)',
-  captionColor: '#a6cfa5',
   captionFontFamily: 'Raleway, sans-serif',
   captionFontSize: '22px',
   captionFontWeight: '300',
   captionFontStyle: 'capitalize',
-  buttonsBackgroundColor: '#1b5245',
-  buttonsIconColor: 'rgba(126, 172, 139, 0.8)',
+
   autoplaySpeed: 1500,
   transitionSpeed: 900,
   zIndex: '999999999999 !important',
@@ -61,20 +57,7 @@ function GaleriaPage(props) {
   return (
     <div className="container">
       <div className="row">
-        <div className="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12">
-          <button className="filter-button" value="todos">
-            Todos
-          </button>
-          <button className="filter-button" value="habitacao">
-            Habitação
-          </button>
-          <button className="filter-button" value="industrial">
-            Industrial
-          </button>
-          <button className="filter-button" value="servicos">
-            Serviços
-          </button>
-        </div>
+        <div className="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
         <SRLWrapper
           options={options}
           callbacks={callbacks}

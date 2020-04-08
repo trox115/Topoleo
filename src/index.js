@@ -4,6 +4,7 @@ import { BrowserRouter as Router } from 'react-router-dom';
 import SimpleReactLightbox from 'simple-react-lightbox';
 import App from './App';
 import './index.css';
+import * as serviceWorker from './serviceWorker';
 
 render(
   <Router>
@@ -13,3 +14,4 @@ render(
   </Router>,
   document.getElementById('root'),
 );
+serviceWorker.register();
