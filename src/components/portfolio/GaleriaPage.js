@@ -57,7 +57,7 @@ function GaleriaPage(props) {
   return (
     <div className="container">
       <div className="row">
-        <div className="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12"></div>
+        <div className="gallery col-lg-12 col-md-12 col-sm-12 col-xs-12" />
         <SRLWrapper
           options={options}
           callbacks={callbacks}
