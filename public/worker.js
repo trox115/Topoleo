@@ -1,4 +1,4 @@
-/* eslint no-use-before-define: 0 */
+/* eslint-disable */
 const CACHE_NAME = 'pwa-task-manager';
 const urlsToCache = ['/', '/completed'];
 
