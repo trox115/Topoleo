@@ -39,8 +39,8 @@ To view the live demo click the [link](https://topoleo.com/) and you will be tak
 to get a running version of this project on your machine you have to install node and then follow the instructions, for installing Node go to the [node Oficial site https://nodejs.org/](https://nodejs.org/) and follow the installation instructions
 
 ```Shell
-your@pc:~$ git clone https://github.com/trox115/topoleo.git
-your@pc:~$ cd topoleo
+your@pc:~$ git clone https://github.com/trox115/Topoleo.git
+your@pc:~$ cd Topoleo
 your@pc:~$ npm install
 your@pc:~$ npm start
 
