@@ -24,7 +24,7 @@ Open the [Live Demo Link](https://topoleo.com/) .
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
 
 ## Future Features 
 - [ ] Create an API so that owners can insert items on the portfolio.
