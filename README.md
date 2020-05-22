@@ -18,11 +18,16 @@ Open the [Live Demo Link](https://topoleo.com/) .
 
 👤 António Fernandes
 
-[Github](https://github.com/trox115) | [Twitter](https://twitter.com/rock_67)
+
+[Github](https://github.com/trox115) | [Twitter](https://twitter.com/rock_67) | [LinkedIn](https://www.linkedin.com/in/antoniomfernandes/) | [Email](mailto:email@antoniofernandes.com) | [Portfolio](https://www.antoniofernandes.com/)
+
 
 ## 🤝 Contributing
 
-Contributions, issues and feature requests are welcome!
+Contributions, issues, and feature requests are welcome!
+
+## Future Features 
+- [ ] Create an API so that owners can insert items on the portfolio.
 
 ## Show your support
 
@@ -39,8 +44,8 @@ To view the live demo click the [link](https://topoleo.com/) and you will be tak
 to get a running version of this project on your machine you have to install node and then follow the instructions, for installing Node go to the [node Oficial site https://nodejs.org/](https://nodejs.org/) and follow the installation instructions
 
 ```Shell
-your@pc:~$ git clone https://github.com/trox115/topoleo.git
-your@pc:~$ cd topoleo
+your@pc:~$ git clone https://github.com/trox115/Topoleo.git
+your@pc:~$ cd Topoleo
 your@pc:~$ npm install
 your@pc:~$ npm start
 
