@@ -18,11 +18,16 @@ Open the [Live Demo Link](https://topoleo.com/) .
 
 👤 António Fernandes
 
-[Github](https://github.com/trox115) | [Twitter](https://twitter.com/rock_67)
+
+[Github](https://github.com/trox115) | [Twitter](https://twitter.com/rock_67) | [LinkedIn](https://www.linkedin.com/in/antoniomfernandes/) | [Email](mailto:email@antoniofernandes.com) | [Portfolio](https://www.antoniofernandes.com/)
+
 
 ## 🤝 Contributing
 
 Contributions, issues and feature requests are welcome!
+
+## Future Features 
+- [ ] Create an API so that owners can insert items on the portfolio.
 
 ## Show your support
 
