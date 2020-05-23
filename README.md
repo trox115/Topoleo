@@ -12,7 +12,7 @@ This is a company Website for Topoleo - Topografia, Arquitetura e Engenharia
 
 ## Getting Started
 
-Open the [Live Demo Link](https://topoleo.com/) .
+Open the [Live Demo Link](https://topoleo.com/).
 
 ## Author
 
@@ -35,7 +35,7 @@ Give a star ⭐️ if you like this project!
 
 ## Topoleo App Features
 
-To view the live demo click the [link](https://topoleo.com/) and you will be taken to the company page.
+To view, the live demo click the [link](https://topoleo.com/) and you will be taken to the company page.
 
 ![Screenshot](documentation/topoleo.png)
 
@@ -56,7 +56,7 @@ then you are prompted to your browser to [http://localhost:3000/](http://localho
 # About This Project
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-And the design was inspired in a previous wordpress website
+And the design was inspired in a previous WordPress website
 
 ## Available Scripts
 
